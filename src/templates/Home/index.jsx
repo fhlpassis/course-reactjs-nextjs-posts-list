@@ -24,7 +24,7 @@ export const Home = () => {
     const postsAndPhotos = await loadPosts();
     setPosts(postsAndPhotos.slice(page, postsPerPage));
     setAllPosts(postsAndPhotos);
-  }, []);
+  }, [postsPerPage]);
 
   useEffect(() => {
     handleLoadPosts(0, postsPerPage);
