@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Home /> should match snapshot 1`] = `
+<section
+  class="container"
+>
+  <div
+    class="search-container"
+  >
+    <input
+      class="text-input"
+      id=""
+      name=""
+      placeholder="Type your search"
+      type="search"
+      value=""
+    />
+  </div>
+  <p>
+    Não existem posts =(
+  </p>
+  <div
+    class="button-container"
+  >
+    <button
+      class="button"
+      disabled=""
+    >
+      Load more posts
+    </button>
+  </div>
+</section>
+`;
